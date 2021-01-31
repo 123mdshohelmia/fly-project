@@ -141,11 +141,11 @@
 
                 const totalPrice = firstCount * 150 + economyCount * 100;
                 const vat = totalPrice * 0.1;
-                document.getElementById('amount-vat').innerText = '$' + vat;
                 const grandTotal = totalPrice + vat;
-                document.getElementById('grandTotal').innerText = '$' + grandTotal;
 
                 document.getElementById('total-Price').innerText = '$' + totalPrice;
+                document.getElementById('amount-vat').innerText = '$' + vat;
+                document.getElementById('grandTotal').innerText = '$' + grandTotal;
 
 
             }
